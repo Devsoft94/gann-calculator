@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <!-- Background -->
+  <rect width="300" height="300" fill="#f9f9f9" />
+
+  <!-- Grid -->
+  <rect x="0" y="0" width="100" height="100" fill="#ffcccc" /> <!-- Top-left -->
+  <rect x="100" y="0" width="100" height="100" fill="#ff9999" /> <!-- Top-center (cardinal) -->
+  <rect x="200" y="0" width="100" height="100" fill="#ffcccc" /> <!-- Top-right -->
+  <rect x="0" y="100" width="100" height="100" fill="#ff9999" /> <!-- Middle-left (cardinal) -->
+  <rect x="100" y="100" width="100" height="100" fill="#ff6666" /> <!-- Center (both axes) -->
+  <rect x="200" y="100" width="100" height="100" fill="#ff9999" /> <!-- Middle-right (cardinal) -->
+  <rect x="0" y="200" width="100" height="100" fill="#ffcccc" /> <!-- Bottom-left -->
+  <rect x="100" y="200" width="100" height="100" fill="#ff9999" /> <!-- Bottom-center (cardinal) -->
+  <rect x="200" y="200" width="100" height="100" fill="#ffcccc" /> <!-- Bottom-right -->
+
+  <!-- Grid lines -->
+  <line x1="100" y1="0" x2="100" y2="300" stroke="#000" stroke-width="2" />
+  <line x1="200" y1="0" x2="200" y2="300" stroke="#000" stroke-width="2" />
+  <line x1="0" y1="100" x2="300" y2="100" stroke="#000" stroke-width="2" />
+  <line x1="0" y1="200" x2="300" y2="200" stroke="#000" stroke-width="2" />
+</svg>
